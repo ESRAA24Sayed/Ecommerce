@@ -14,11 +14,11 @@ import { NgModel } from '@angular/forms';
 
 
 @Component({
-  selector: 'app-blank-layout',
-  standalone: true,
-  imports: [CommonModule ,NavBlankComponent,RouterOutlet,RouterLink,RouterLinkActive ],
-  templateUrl: './blank-layout.component.html',
-  styleUrls: ['./blank-layout.component.scss']
+    selector: 'app-blank-layout',
+    standalone: true,
+    templateUrl: './blank-layout.component.html',
+    styleUrls: ['./blank-layout.component.scss'],
+    imports: [CommonModule, NavBlankComponent, RouterOutlet, RouterLink, RouterLinkActive, FooterComponent]
 })
 export class BlankLayoutComponent {
 
